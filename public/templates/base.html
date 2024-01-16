@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HTMX Blog</title>
+    {% load static %}
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" />
+
+    <script src="https://unpkg.com/htmx.org@1.8.0"></script>
+  </head>
+  <body class="bg-gray-100">
+    <div class="container mx-auto mt-10 px-4 justify-center">
+      {% block body %} {% endblock %}
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+  </body>
+</html>
